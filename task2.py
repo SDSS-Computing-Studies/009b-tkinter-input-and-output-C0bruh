@@ -24,3 +24,17 @@ sign1 = StringVar()
 sign1.set("-")
 sign2 = StringVar()
 sign2.set("+")
+
+def trinomial():
+    a = 1
+    b = int(e1.get())
+    c = int(e2.get())
+
+    a1 = (-b + (b**2-4*a*c) ** (1/2)) / (2)
+    a2 = (-b - (b**2-4*a*c) ** (1/2)) / (2)
+
+    o1 = -1*a1
+    o2 = -1*a2
+
+    x = str(o1)
+    y = str(o2)
